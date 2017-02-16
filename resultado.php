@@ -77,3 +77,10 @@
 <div class="container">
 	<a href="main.php" class="btn btn-warning">Voltar</a>
 </div>
+<footer class="footer">
+	<div class="container">
+		<h3><?php echo "<br>$a Visitas" ?></h3>
+	</div>
+</footer>
+</body>
+</html>
