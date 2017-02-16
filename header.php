@@ -15,6 +15,22 @@
 					documento.value += texto.substring(0,1);
 				}
 			}
+			$(function() {
+				$("ul a").click(function() {
+					event.preventDefault();
+					var idElement = $(this).attr("href");
+					var deslocate = $(idElement).offset().top;
+					$('html,body').animate({scrollTop: delocate},'slow');
+				});
+			});
+			$(function() {
+				$("#btnVoltar").click(function() {
+					event.preventDefault();
+					var idElement = $(this).attr("href");
+					var deslocate = $(idElement).offset().top;
+					$('html,body').animate({scrollTop: delocate},'slow');
+				});
+			});
 		</script>
 	</head>
 	<body>
