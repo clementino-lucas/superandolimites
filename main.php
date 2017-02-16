@@ -87,7 +87,7 @@
 	</div>
 </div>
 <div class="container">
-<a href="main.php" class="btn btn-default">Voltar ao topo</a>
+<a href="#inicio" class="btn btn-default" id="btnVoltar">Voltar ao topo</a>
 </div>
 <footer class="footer">
 	<div class="container">
